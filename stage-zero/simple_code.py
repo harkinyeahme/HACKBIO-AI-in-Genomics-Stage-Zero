@@ -13,8 +13,10 @@ affiliation = "HackBio"
 gene = "wbeO"
 organism = "Vibrio cholerae"
 
-print(f"My name is {name}. I am a {role} at {affiliation}."
-    f"\nMy favorite gene is {gene} found in {organism}")
+print(
+    f"My name is {name}. I am a {role} at {affiliation}."
+    f"\nMy favorite gene is {gene} found in \033[3m{organism}\033[0m."
+    )
 
 
 
